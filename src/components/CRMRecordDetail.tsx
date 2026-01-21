@@ -1,0 +1,1 @@
+export function CRMRecordDetail() { return <div>CRMRecordDetail</div> }

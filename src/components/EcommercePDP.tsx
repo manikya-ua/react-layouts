@@ -1,0 +1,1 @@
+export function EcommercePDP() { return <div>EcommercePDP</div> }

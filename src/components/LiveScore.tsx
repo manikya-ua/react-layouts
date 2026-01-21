@@ -1,0 +1,1 @@
+export function LiveScore() { return <div>LiveScore</div> }

@@ -21,7 +21,7 @@ export function Flex({
 	children,
 	direction = "flex-row",
 	gap = 0,
-	padding = 0,
+	padding,
 	width,
 	height,
 	className,
@@ -31,7 +31,7 @@ export function Flex({
 			className={`flex ${direction} ${className}`}
 			style={{
 				gap: `${gap}rem`,
-				padding: `${padding}rem`,
+				padding: padding && `${padding}rem`,
 				height: height && `${height}rem`,
 				width: width && `${width}rem`,
 			}}

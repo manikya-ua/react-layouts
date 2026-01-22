@@ -43,10 +43,12 @@ export default function App() {
 	return (
 		<div className="h-screen flex flex-col bg-white">
 			<Navbar active={currentPage} setActivePage={setCurrentPage} />
-			<div className="h-8 bg-neutral-100 border-b border-neutral-200 flex items-center px-4">
+			<div className="h-8 bg-neutral-100 border-b border-neutral-200 flex items-center px-4 shrink-0">
 				<span className="text-xs text-neutral-500"></span>
 			</div>
-			<div className="flex-1 flex flex-col">{Components[currentPage]}</div>
+			<div className="flex-1 flex flex-col overflow-hidden">
+				{Components[currentPage]}
+			</div>
 		</div>
 	);
 }

@@ -95,7 +95,7 @@ function Card() {
 		>
 			<Box height={1} color="200"></Box>
 			<Box height={1} className="w-3/4!" color="100"></Box>
-			<Flex className="justify-between mt-2">
+			<Flex className="justify-between mt-2 items-center">
 				<Box width={3} height={1.25} color="200"></Box>
 				<Box width={1.5} height={1.5} borderRadius={999} color="200"></Box>
 			</Flex>

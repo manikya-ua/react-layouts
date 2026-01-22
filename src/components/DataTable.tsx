@@ -71,7 +71,7 @@ function Row() {
 		<Flex
 			height={3.5}
 			gap={1}
-			className="px-4 items-center hover:bg-neutral-50"
+			className="px-4 items-center hover:bg-neutral-50 border-b border-neutral-100"
 		>
 			<Box width={3} height={1.25} color="200"></Box>
 			<Box width={12} height={1.25} color="100"></Box>
